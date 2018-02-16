@@ -4,7 +4,6 @@ public class Q3 {
     public static void main(String[] args) throws IOException {
         FileInputStream fis = null;
         try {
-//            fis = new FileInputStream("B:/myfile.txt");
             fis = new FileInputStream("B:/myfile.txt");
         } // If file not found, catch exception
         catch (FileNotFoundException e1) {
